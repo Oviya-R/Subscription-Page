@@ -1,0 +1,62 @@
+body {
+    background-color: #f1f1f1;
+    margin: 0;
+    padding: 0;
+}
+
+.subscription__container {
+    text-align: center;
+    padding: 30px 20px;
+}
+
+.subscription__title {
+    background-color: #e269c0;
+    color: #1a1a1a;
+    padding: 15px 200px;
+    font-size: 24px;
+    font-weight: bold;
+    display: inline-block;
+    margin-bottom: 30px;
+}
+
+.subscription-plans {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.subscription__card {
+    background-color: #121212;
+    color: white;
+    width: 200px;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.subscription__card h2 {
+    margin: 0;
+    font-size: 32px;
+}
+
+.subscription__card h3 {
+    margin-top: 5px;
+    font-size: 22px;
+}
+
+.subscription__card ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 15px;
+    text-align: left;
+}
+
+.subscription__card ul li {
+    margin: 8px 0;
+    font-size: 16px;
+}
+
+.subscription__card ul {
+    border: 2px solid white;
+    border-radius: 10px;
+}
